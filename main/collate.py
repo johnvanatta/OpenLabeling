@@ -16,7 +16,7 @@ def combine_annotations(anno_list):
 
 if __name__ == "__main__":
     path = "output/YOLO_darknet/*.txt"
-    num_holes = 9
+    num_holes = 8
 
     all_filenames = glob.glob(path)
     filename_base = "_".join(os.path.basename(
