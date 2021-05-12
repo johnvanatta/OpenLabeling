@@ -1042,8 +1042,8 @@ if __name__ == '__main__':
     # The colors are in BGR order because we're using OpenCV
     class_rgb = [
         (0, 0, 255), (255, 0, 0), (0, 255, 0), (255, 255, 0), (0, 255, 255),
-        (255, 0, 255), (192, 192, 192), (128, 128, 128), (128, 0, 0),
-        (128, 128, 0), (0, 128, 0), (128, 0, 128), (0, 128, 128), (0, 0, 128)]
+        (255, 0, 255), (128, 128, 0), (0, 0, 128), (0, 128, 128),
+        (0, 128, 0), (128, 0, 128)]
     class_rgb = np.array(class_rgb)
     # If there are still more classes, add new colors randomly
     num_colors_missing = len(CLASS_LIST) - len(class_rgb)
